@@ -1,0 +1,27 @@
+void main() {
+  
+  //Criando um produto
+  String produto  = "Arroz";
+  print(produto);
+  
+  
+  
+  //Quantidade de sacos de arroz
+  int quantidade = 20;
+  
+  //Preço do saco de arroz
+  double preco = 10.99;
+  
+  
+  
+  bool entrega = true;
+  
+  produto = "Arroz Branco";
+  
+  //Concatenação
+  print("O " + produto + " está");
+  print("O Arroz Branco está 10.99");
+  
+  //Interpolação de Strings
+  print("O $produto está $preco");
+}
