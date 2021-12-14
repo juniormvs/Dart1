@@ -1,0 +1,184 @@
+void main() {
+/*
+double valor1 = 15.63;
+   ----------------------------- Aula 1------------------
+int valor2 = 30;
+  
+  double resultado = valor1 + valor2;
+  
+  print(resultado);
+  //resultado+=2;
+  
+  //~/ retorna somente a parte inteira da divisão
+  //int resultado2 = 45 ~/ 10.4;
+  
+  //o % temos somente o módulo do operador
+  resultado = valor1 % valor2;
+  
+  
+  print(resultado);
+  */
+
+//-------------------------Aula 2-------------------------
+
+//OPERADOR DE IGUALDADE VERDADEIRO OU FALSO
+/*
+  int operador1 = 1;
+  int operador2 = 1;
+  double operador3 = 1.1;
+  
+  bool resultado = operador1 == operador3;
+  print(resultado);
+  */
+
+  // OPERADOR DE DIFERENÇA
+  /*
+  int operador1 = 2;
+  int operador2 = 2;
+  double operador3 = 1.1;
+
+  bool resultado = operador1 != operador2;
+  print(resultado);
+  */
+  
+  //OPERADOR DE DIFERENÇA MAIOR QUE
+  /*
+  int operador1 = 2;
+  int operador2 = 3;
+  
+
+  bool resultado = operador1 < operador2;
+  print(resultado);
+  */
+  
+  //OPERADOR MAIOR IGUAL, MENOR IGUAL
+  /*
+  int operador1 = 6;
+  int operador2 = 5;
+  
+
+  bool resultado = operador1 <= operador2;
+  print(resultado);
+  */
+  
+  //---------------------------AULA 3-------------------------
+  
+  //OPERADOR IS
+  
+  //bool resultado = true;
+  //print("1.1" is String);
+  //print("palavra" is String);
+  //print(resultado is bool);
+  
+  //bool operador1 = true;
+  //bool operador2 = true;
+  /*
+  bool operador1 = (1 == 1);
+  bool operador2 = (2 == 2);
+  bool operador3 = false;
+  
+  //OPERADOR && AND E
+  //e é representado por ^ 
+  //bool resultado = operador1 ^ operador2;
+  bool resultado = operador1 && operador2 && operador3;
+  
+  
+  //------TABELA VERDADE PARA OPERADOR && E (and)----------//
+  //true && true saída TRUE
+  //false && true saída FALSE
+  //true && false saída FALSE
+  //false && false saída FALSE
+  print(resultado);
+  */
+  
+  //OPERADOR OU ||
+  /*
+  bool operador1 = (1 > 2);//FALSE
+  bool operador2 = (2 > 1);//TRUE
+  bool resultado = operador1 || operador2;
+  
+  
+  print(resultado);
+  */
+  
+  //------------TABELA VERDADE PARA || - OU (or)--------------//
+  
+  //FALSE FALSE saída = FALSE
+  //TRUE TRUE saída = TRUE
+  //FALSE TRUE saída = TRUE
+  //TRUE FALSE saída = TRUE
+  
+  
+  
+  //OPERADOR IS
+  /*
+  bool resultado = true;
+  //testando tipos de variáveis e valores implícitos
+  print(resultado is bool);
+  */
+  
+  //OPERADOR AND (E) ^
+  /*
+  bool operador1 = (1 == 1);
+  bool operador2 = (2 == 2);
+  bool operador3 = false;
+  
+  /*
+  bool resultado = operador1 ^ operador2;
+  print(resultado);
+  */
+  
+  bool resultado = operador1 && operador2 && operador3;
+  print(resultado);
+  */
+  
+  //---------------------TABELA VERDADE && - E (and)
+  //FALSE FALSE saída = FALSE
+  //FALSE TRUE saída = FALSE
+  //TRUE FALSE saída = FALSE
+  //TRUE TRUE saída = TRUE
+  
+  
+  //OPERADOR OR ||
+  
+  /*bool operador1 = (1 > 2);
+  bool operador2 = (2 > 1);
+  
+  
+  
+  bool resultado = operador1 || operador2;
+  print(resultado);
+  
+  */
+  
+  
+  //-----------------TABELA VERDADE OR ||
+  //TRUE TRUE saída TRUE
+  //FALSE TRUE saída TRUE
+  //TRUE FAÇSE saída TRUE
+  //FALSE FALSE saída FALSE
+  
+  
+  //---------------------------AULA 4-------------------------
+  // COMBINAÇÕES DE OPERADORES LÓGICOS
+  /*
+  int ano = 2000;
+  bool operador1 = (1999 > ano);
+  bool operador2 = (2 >= 2 );
+  
+  //bool resultado = !(ano >1999 && operador2 == false);
+  
+  bool resultado = (!(ano >1999 && operador2 == false) && true);
+  print(!resultado || false);
+  */
+  
+  //-------------------TABLEA VERDADE ! NEGAÇÃO (NOT)
+  //TRUE saída FALSE (NEGAÇÃO DA VERDADE)
+  //FALSE saída TRUE (NEGAÇÃO DO FALSO)
+  
+  
+ //print ((( true && true) || true) || false);
+ print((( false && true) || true) && false) ;
+  
+  
+}
