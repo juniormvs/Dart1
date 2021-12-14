@@ -1,2 +1,3 @@
-# Dart1
-Dart Primeiros Passos
+# Curso Básico de Dart
+
+Dart Primeiros Passos coma a linguagem Dart.
